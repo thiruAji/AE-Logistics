@@ -19,7 +19,7 @@ function About() {
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '40px', alignItems: 'center' }}>
                 <div style={{ flex: '1 1 400px' }}>
                     <img
-                        src="/assets/team-photo.jpg"
+                        src={`${import.meta.env.BASE_URL}assets/team-photo.jpg`}
                         alt="Our Team"
                         style={{ width: '100%', borderRadius: '10px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}
                         onError={(e) => { e.target.src = 'https://placehold.co/600x400/2ecc71/white?text=Our+Team' }}
@@ -72,7 +72,7 @@ function About() {
                             e.currentTarget.style.boxShadow = '0 10px 30px rgba(39, 174, 96, 0.3)';
                         }}>
                         <div style={{ marginBottom: '20px', height: '80px' }}>
-                            <img src="/assets/icon-experience.png" alt="Experience Icon" style={{ height: '100%', objectFit: 'contain' }} />
+                            <img src={`${import.meta.env.BASE_URL}assets/icon-experience.png`} alt="Experience Icon" style={{ height: '100%', objectFit: 'contain' }} />
                         </div>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '15px', fontWeight: 'bold' }}>30 Years of Experience</h3>
                         <p style={{ fontSize: '1rem', lineHeight: '1.6', opacity: 0.95 }}>
@@ -102,7 +102,7 @@ function About() {
                             e.currentTarget.style.boxShadow = '0 10px 30px rgba(220, 232, 230, 0.3)';
                         }}>
                         <div style={{ marginBottom: '20px', height: '80px' }}>
-                            <img src="/assets/icon-handyman.png" alt="Handyman Icon" style={{ height: '100%', objectFit: 'contain' }} />
+                            <img src={`${import.meta.env.BASE_URL}assets/icon-handyman.png`} alt="Handyman Icon" style={{ height: '100%', objectFit: 'contain' }} />
                         </div>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '15px', fontWeight: 'bold' }}>Skilled Handymen</h3>
                         <p style={{ fontSize: '1rem', lineHeight: '1.6', opacity: 0.95 }}>
@@ -132,7 +132,7 @@ function About() {
                             e.currentTarget.style.boxShadow = '0 10px 30px rgba(33, 145, 80, 0.3)';
                         }}>
                         <div style={{ marginBottom: '20px', height: '80px' }}>
-                            <img src="/assets/icon-truck.png" alt="Truck Icon" style={{ height: '100%', objectFit: 'contain' }} />
+                            <img src={`${import.meta.env.BASE_URL}assets/icon-truck.png`} alt="Truck Icon" style={{ height: '100%', objectFit: 'contain' }} />
                         </div>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '15px', fontWeight: 'bold' }}>Experienced Moving Team</h3>
                         <p style={{ fontSize: '1rem', lineHeight: '1.6', opacity: 0.95 }}>
@@ -146,3 +146,4 @@ function About() {
 }
 
 export default About;
+
