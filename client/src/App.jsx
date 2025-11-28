@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -16,7 +16,7 @@ import './index.css';
 function App() {
   return (
     <HelmetProvider>
-      <Router basename="/AE-Logistics">
+      <Router>
         <StructuredData />
         <div className="app-container">
           <Navbar />
