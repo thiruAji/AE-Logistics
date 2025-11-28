@@ -53,8 +53,9 @@ function Home() {
                 backgroundImage: `url('${import.meta.env.BASE_URL}assets/team-photo.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                backgroundAttachment: 'fixed',
-                position: 'relative'
+                backgroundAttachment: 'scroll',
+                position: 'relative',
+                minHeight: '600px'
             }}>
                 {/* Overlay for better readability if needed, though the white container handles it */}
                 <div style={{
