@@ -16,7 +16,7 @@ import './index.css';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="/AE-Logistics">
         <StructuredData />
         <div className="app-container">
           <Navbar />
