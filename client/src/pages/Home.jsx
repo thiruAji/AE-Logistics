@@ -50,7 +50,7 @@ function Home() {
             {/* Features Section */}
             <div style={{
                 padding: '80px 20px',
-                backgroundImage: "url('/assets/team-photo.jpg')",
+                backgroundImage: `url('${import.meta.env.BASE_URL}assets/team-photo.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundAttachment: 'fixed',
