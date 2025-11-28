@@ -13,7 +13,7 @@ function Navbar() {
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px 20px', position: 'relative', height: '80px' }}>
                 <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
                     <img
-                        src="/assets/logo-final.png"
+                        src={`${import.meta.env.BASE_URL}assets/logo-final.png`}
                         alt="Assalaamualaikum Enterprises"
                         style={{
                             height: '375px',
@@ -23,7 +23,7 @@ function Navbar() {
                             position: 'absolute',
                             top: '-150px',
                             left: '20px',
-                            zIndex: 1001
+                            zIndex: 999
                         }}
                     />
                 </Link>
