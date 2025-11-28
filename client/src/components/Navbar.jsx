@@ -41,7 +41,7 @@ function Navbar() {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <div className="mobile-menu-btn" onClick={toggleMenu} style={{ cursor: 'pointer', display: 'none' }}>
+                <div className="mobile-menu-btn" onClick={toggleMenu} style={{ cursor: 'pointer' }}>
                     <div style={{ width: '25px', height: '3px', background: '#333', margin: '5px 0' }}></div>
                     <div style={{ width: '25px', height: '3px', background: '#333', margin: '5px 0' }}></div>
                     <div style={{ width: '25px', height: '3px', background: '#333', margin: '5px 0' }}></div>
