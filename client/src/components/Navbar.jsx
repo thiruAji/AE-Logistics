@@ -50,7 +50,7 @@ function Navbar() {
 
             {/* Mobile Menu Dropdown */}
             {isOpen && (
-                <div className="mobile-menu" style={{ background: 'white', padding: '20px', borderTop: '1px solid #eee' }}>
+                <div className="mobile-menu" style={{ background: 'white', padding: '20px', borderTop: '1px solid #eee', position: 'relative', zIndex: 1001 }}>
                     <Link to="/" className="nav-link-mobile" onClick={toggleMenu}>Home</Link>
                     <Link to="/about" className="nav-link-mobile" onClick={toggleMenu}>About Us</Link>
                     <Link to="/services" className="nav-link-mobile" onClick={toggleMenu}>Services</Link>
