@@ -8,25 +8,25 @@ function Services() {
             id: 1,
             title: "House Moving",
             description: "Professional house moving services tailored to your needs. We handle everything from small apartments to large landed properties with care and efficiency.",
-            image: "/assets/service-moving.png"
+            image: `${import.meta.env.BASE_URL}assets/service-moving.png`
         },
         {
             id: 2,
             title: "Disposal Services",
             description: "Eco-friendly disposal of unwanted furniture and household items. We ensure proper recycling and disposal of your old belongings.",
-            image: "/assets/service-disposal.png"
+            image: `${import.meta.env.BASE_URL}assets/service-disposal.png`
         },
         {
             id: 3,
             title: "Storage Solutions",
             description: "Secure and clean storage facilities for your short-term or long-term needs. Keep your belongings safe while you transition between homes.",
-            image: "/assets/service-storage.png"
+            image: `${import.meta.env.BASE_URL}assets/service-storage.png`
         },
         {
             id: 4,
             title: "Professional Packing",
             description: "Expert packing services using high-quality materials. We wrap your fragile items, electronics, and furniture to prevent any damage during transit.",
-            image: "/assets/service-packing.png"
+            image: `${import.meta.env.BASE_URL}assets/service-packing.png`
         }
     ];
 
@@ -102,3 +102,4 @@ function Services() {
 }
 
 export default Services;
+
